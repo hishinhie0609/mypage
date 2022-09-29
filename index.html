@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
+             우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="향설 - 당신의 구름" />
+        <meta property="og:description" content="어서와 코딩은 처음이지?" />
+        <meta property="og:image" content="공유할 이미지" />
+        <title>향설 - 당신의 구름</title>
+        <style>
+            @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+            * {
+                font-family: "Pretendard",serif;
+             }
+            body {
+                background-color: #4d7fa0;
+            }
+            .profile {
+                width: 100px;
+                height: 100px;
+
+                border-radius: 100%;
+
+                border: 2px solid white;
+
+                background-image: url('진아 첫 키링.png');
+                background-position: center;
+                background-size: cover;
+            }
+            .main {
+                color: white;
+                font-size: 20px;
+
+                margin-top: 30px;
+                margin-bottom: 10px;
+            }
+            .sub {
+                color: white;
+                font-size: 14px;
+
+                margin-top: 0px;
+                margin-bottom: 30px;
+            }
+            .wrap {
+                width: 300px;
+                margin: 30px auto 0px auto;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .wrap > a {
+                width: 300px;
+                height: 50px;
+
+                background-color: white;
+                border-radius: 8px;
+
+                margin-bottom: 10px;
+
+                font-size: 14px;
+                font-weight: bold;
+                color: #4d7fa0;
+                
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                text-decoration: none;
+
+                box-shadow: 3px 3px 5px 0px black;
+            }
+            .wrap > a:hover {
+                background-color: #f2f2f2;
+                font-size: 16px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="profile"></div>
+            <h1 class="main">향설</h1>
+            <p class="sub">오늘 날씨 어때요?</p>
+            <a target="_blank" href="https://blog.naver.com/PostList.naver?blogId=sinhie0609&from=postList&categoryNo=17">자캐 정리집</a>
+            <a target="_blank" href="https://blog.naver.com/PostList.naver?blogId=sinhie0609&from=postList&categoryNo=18">하늘 보는 날</a>
+            <a target="_blank" href="https://blog.naver.com/PostList.naver?blogId=sinhie0609&from=postList&categoryNo=19">취미 일기</a>
+        </div>
+        
+    </body>
+</html>
